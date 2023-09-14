@@ -1,0 +1,38 @@
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 6px;
+  gap: 0.5rem;
+}
+
+.teams a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.team img {
+  width: 185px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.search input {
+  outline: 0;
+  border: 0;
+  width: 350px;
+  height: 35px;
+  padding: 0 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.search input[type="text"] {
+  color: #000;
+}

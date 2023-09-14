@@ -1,0 +1,25 @@
+.team-details {
+  padding: 2rem;
+}
+
+.team-details .team-badge {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.team-about {
+  display: flex;
+  align-items: center;
+}
+
+.team-details span,
+.team-details p {
+  color: rgb(94, 196, 196);
+  font-weight: bold;
+}
+
+.team-carousel {
+  margin-top: 2rem;
+}
