@@ -1,91 +1,120 @@
+<div align="center">
+
+  <br/>
+
+  <h3><b>React-Redux Capstone Project</b></h3>
+
+</div>
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 capstone ](#-capstone-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+    - [ Video Demo ](#video-demo)
+    - [ Live Link ](#live-link)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 REACT-REDUX-CAPSTONE<a name="about-project"></a>
+# 📖React-Redux Capstone Project<a name="about-project"></a>
 
-This webpage shows a sneak peek into the project I have developed and deployed, showcasing my skills in HTML CSS, Javascript and webpack.
-
-**[React-Redux-Capstone]** is an HTML, CSS and Javascript project
+This is the capstone project for react. It consumes an API, uses Redux as a state management tool and React for the UI frontend.
 
 ## 🛠 Built With <a name="built-with"></a>
+- React
+- Redux
+- API
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- React.js
-- Redux
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://react.dev/">React JS</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
-- **Basic maths Calculations**
-- **Well structured UI**
+
+- **Code Quality**
+- **SPAs**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Video Demo <a name="video-demo"></a>
+
+[Video Link](https://www.loom.com/share/d1bb499c11b240ea99069a1166b2e901?sid=66b92fdb-1145-423e-899a-199ed82382b3)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Link <a name="live-link"></a>
+
+[Live Link](https://ngalamac.github.io/react-redux-capstone/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- Visual Studio Code
-- Web browser such as chrome
+- You need to have NodeJS installed
+- A Web Browser (Google Chrome, Firefox, etc)
+- A Code Editor (Notepad++, VSCode, etc)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd react-redux-capstone
-  git clone https://github.com/ngalamac/react-redux-capstone.git
+```
+git clone your link repo https://github.com/ngalamac/react-redux-capstone.git
+
+cd react-redux-capstone
 ```
 
 ### Install
 
 Install this project with:
 
-```sh
-  cd react-redux-capstone
-  npm install
+```
+npm install
 ```
 
 ### Usage
 
-To run the project, start the html file on live server or run normally from local directory
+To run the project, execute the following command:
+
+``npm start``
 
 ### Run tests
 
 To run tests, run the following command:
-```sh
-  npx hint .
-  npx stylelint "**/*.{css,scss}"
-```
+
+- npx eslint "**/*.{js,jsx}"
+- npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
 You can deploy this project using:
-
-```sh
-  gh-pages
-  netlify
-  vercel
-```
+- Netlify
+- Vercel
+- Render
+- Railway
+- gh-pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,24 +126,39 @@ You can deploy this project using:
 - LinkedIn: [Ngala Mac](https://www.linkedin.com/in/...)
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- A more improved user interface
-- user dashboard
+- [ ] **Adding more pages**
+- [ ] **Adding responsiveness**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to create an issue on this repository.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can go ahead give a star to the repository.
+If you like this project give me a star.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I give thanks to Microverse community for investing in me. I am looking forth to building more projects
+I will like to acknowledge my coding partners who took at time to assist me with this project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+
+This project is [MIT](./MIT) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
