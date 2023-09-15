@@ -1,58 +1,56 @@
-<div align="center">
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-  <br/>
+# Air Pollution App
 
-  <h3><b>React-Redux Capstone Project</b></h3>
+> "Air Pollution App" is a website built with React and Redux. It is a Single Page App (SPA) that allows users to:
+> - Display a list of countries for continent.
+> - Search a exact country.
+> - Display air quality index and pollutans for each country.
 
-</div>
+## Built With
 
-# 📗 Table of Contents
-
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 capstone ](#-capstone-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-    - [ Video Demo ](#video-demo)
-    - [ Live Link ](#live-link)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
-
-# 📖React-Redux Capstone Project<a name="about-project"></a>
-
-This is the capstone project for react. It consumes an API, uses Redux as a state management tool and React for the UI frontend.
-
-## 🛠 Built With <a name="built-with"></a>
 - React
 - Redux
-- API
 
-### Tech Stack <a name="tech-stack"></a>
+## APIs
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://react.dev/">React JS</a></li>
-  </ul>
-</details>
+- [Rest Countries v3.1 API](https://restcountries.com/)
+- [Open Weather Map Air pollution API](https://openweathermap.org/api/air-pollution)
 
-### Key Features <a name="key-features"></a>
+## Getting Started
 
-- **Code Quality**
-- **SPAs**
+To get a local copy up and running follow these simple steps.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Prerequisites
+
+- Code Editor (e.g. VS Code, Atom)
+- Web browser 
+
+### Setup
+
+ **Step 1: Clone this repo locally using git**
+- Create a folder in your local machine
+- Open your console in your folder and run this command:
+- 'git clone https://github.com/ngalamac/react-redux-capstone.git`
+- Alternatively, you can just download the complete zip file and extract the folder in your directory
+
+ **Step 2: Run in your project directory**
+- **npm install** 
+  Installs all the dependencies from the package.json
+- **npm run start** 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### Deployment
+
+This project has been deployed using Heroku.
+
+### Live Demo
+
+[Live Demo](http://binka-online.preview-domain.com/)
+
 
 ### Video Demo <a name="video-demo"></a>
 
@@ -60,105 +58,34 @@ This is the capstone project for react. It consumes an API, uses Redux as a stat
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Live Link <a name="live-link"></a>
-
-[Live Link](https://ngalamac.github.io/react-redux-capstone/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-### Prerequisites
-
-In order to run this project you need:
-
-- You need to have NodeJS installed
-- A Web Browser (Google Chrome, Firefox, etc)
-- A Code Editor (Notepad++, VSCode, etc)
-
-### Setup
-
-Clone this repository to your desired folder:
-
-```
-git clone your link repo https://github.com/ngalamac/react-redux-capstone.git
-
-cd react-redux-capstone
-```
-
-### Install
-
-Install this project with:
-
-```
-npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-``npm start``
-
-### Run tests
-
-To run tests, run the following command:
-
-- npx eslint "**/*.{js,jsx}"
-- npx stylelint "**/*.{css,scss}"
-
-### Deployment
-
-You can deploy this project using:
-- Netlify
-- Vercel
-- Render
-- Railway
-- gh-pages
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 👥 Authors <a name="authors"></a>
+## Authors
 
 👤 **Ngala Mac**
 
 - GitHub: [ngalamac](https://github.com/ngalamac)
 - LinkedIn: [Ngala Mac](https://www.linkedin.com/in/...)
 
+## Design
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Adding more pages**
-- [ ] **Adding responsiveness**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to create an issue on this repository.
+Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Show your support
 
-## ⭐️ Show your support <a name="support"></a>
+Give a ⭐️ if you like this project!
 
-If you like this project give me a star.
+## Acknowledgments
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Microverse Staff
+- Coding Partners
+- Code Reviewers
+- [Map's author](https://github.com/VuDej/worldMaps)
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 📝 License
 
-I will like to acknowledge my coding partners who took at time to assist me with this project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-
-This project is [MIT](./MIT) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./MIT.md) licensed.
