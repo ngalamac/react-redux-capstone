@@ -1,0 +1,11 @@
+/* stylelint-disable csstree/validator */
+.progress {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid lightblue;
+  border-right-color: var(--color-secondary-dark);
+  animation: s2 1s infinite linear;
+}
+
+@keyframes s2 { to { transform: rotate(1turn); } }

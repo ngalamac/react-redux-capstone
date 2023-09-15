@@ -1,0 +1,16 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./base.css');
+@import url('./button.css');
+@import url('../Components/Nav/nav.css');
+@import url('../Routes/Home/home.css');
+@import url('../Components/Hero/hero.css');
+@import url('../Components/Continents/continents.css');
+@import url('../Components/Continent/continent.css');
+@import url('../Routes/Countries/countries.css');
+@import url('../Components/Country/country.css');
+@import url('../Routes/Pollution/pollution.css');
+@import url('../Components/Pollution/pollutionDetail.css');
+@import url('../Components/HeroContinent/heroContinent.css');
+@import url('../Components/SearchCountry/searchCountry.css');
+@import url('./loader.css')

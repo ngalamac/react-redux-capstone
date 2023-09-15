@@ -1,0 +1,16 @@
+.continents {
+  display: flex;
+  flex-direction: column;
+}
+
+.continents_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: var(--color-primary);
+}
+
+@media only screen and (min-width: 768px) {
+  .continents {
+    width: 50%;
+  }
+}
