@@ -1,91 +1,226 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Air Pollution App
+<div align="center">
+ <h3><b>Nation Navigator </b>.
+ </h5>
+</div>
 
-> "Air Pollution App" is a website built with React and Redux. It is a Single Page App (SPA) that allows users to:
-> - Display a list of countries for continent.
-> - Search a exact country.
-> - Display air quality index and pollutans for each country.
+<!-- TABLE OF CONTENTS -->
 
-## Built With
+# 📗 Table of Contents
 
-- React
-- Redux
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo and presentation video](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## APIs
+<!-- PROJECT DESCRIPTION -->
 
-- [Rest Countries v3.1 API](https://restcountries.com/)
-- [Open Weather Map Air pollution API](https://openweathermap.org/api/air-pollution)
+## 📖 Nation Navigator (React-Redux Capstone) <a name="about-project"></a>
 
-## Getting Started
+<h3>Nation Navigator is a website where you can learn about different countries from around the world. It has information on things like what region the country is in, how many people live there, what the capital city is, what language is spoken, and even what the flag looks like. You can easily search for a country you're interested in and find all the information in a simple and easy-to-read format. The website uses a tool called the Rest Countries API to get the latest and most accurate data. So, if you want to learn about a new country, Nation Navigator is a great place to start! </h3>
 
-To get a local copy up and running follow these simple steps.
+## 🛠 Built With <a name="built-with"></a>
 
-### Prerequisites
+## Tech Stack <a name="tech-stack"></a>
 
-- Code Editor (e.g. VS Code, Atom)
-- Web browser 
+<details>
+  <summary>Client</summary>
+  <b>This project only works client side right now.</b>
+  <ul>
+    <li>React</li>
+    <li>Redux</li>
+    <li>CSS</li>
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href=#>Local Server - Hosted on [Hostinger](https://www.hostinger.com/)
+</a></li>
+  </ul>
+</details>
 
-### Setup
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href=#>[Rest Countries](https://restcountries.com/) API's used</a></li>
+  </ul>
+</details>
 
- **Step 1: Clone this repo locally using git**
-- Create a folder in your local machine
-- Open your console in your folder and run this command:
-- 'git clone https://github.com/ngalamac/react-redux-capstone.git`
-- Alternatively, you can just download the complete zip file and extract the folder in your directory
+<!-- Features -->
 
- **Step 2: Run in your project directory**
-- **npm install** 
-  Installs all the dependencies from the package.json
-- **npm run start** 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 💻 Key Features <a name="key-features"></a>
 
-### Deployment
+## Home Page:
 
-This project has been deployed using Heroku.
+- Displays a list of countries retrieved from the [Rest Countries](https://restcountries.com/) API.
+- Users can filter the countries by region.
 
-### Live Demo
+## Details Page:
 
-[Live Demo](http://binka-online.preview-domain.com/)
+- Shows the details of a country, such as its flag, region, population, and capital city.
+- Users can access this page by clicking on a country in the `Home Page`.
 
+## Header and Navigation:
 
-### Video Demo <a name="video-demo"></a>
-
-[Video Link](https://www.loom.com/share/d1bb499c11b240ea99069a1166b2e901?sid=66b92fdb-1145-423e-899a-199ed82382b3)
+- Contains a header and a navigation bar for both the Home Page and Details Page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Authors
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://binka.online/)
+
+# 💻 Video Presentation <a name="video-presentation"></a>
+
+- [Video Presentation ](https://www.loom.com/share/d1bb499c11b240ea99069a1166b2e901?sid=66b92fdb-1145-423e-899a-199ed82382b3)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+## Prerequisites <a name="prerequisites"></a>
+
+- In order to run this project you need:
+
+### It would be best if you had some familiarity with `React`, `Redux`, and `JS`.
+
+- A Computer (MAC or PC)
+- code editor (VSCode,Atom etc...)
+- A browser (Chrome,Mozilla,Safari etc...)
+- Version Control System (Git and Github)
+
+# Setup <a name="setup"></a>
+
+Clone this repository to your desired folder:
+
+```bash
+       git clone https://github.com/ngalamac/react-redux-capstone.git
+       cd react-redux-capstone
+```
+
+# Install <a name="install"></a>
+
+Install this project with:
+
+```bash
+     npm install
+```
+
+# Run tests and check errors <a name="run-tests"></a>
+
+To run tests and check errors, run the following command:
+
+- To Test:-
+
+```bash
+   npm test
+```
+
+- To check Styelint error:-
+
+```bash
+   npx stylelint "\*_/_.{css,scss}"
+```
+
+- To check Eslint error:-
+
+```bash
+   npx eslint "**/*.{js,jsx}"
+```
+
+- To check webhint error:-
+
+```bash
+  npx hint .
+```
+
+# Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using:
+
+```bash
+   npm run build
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Ngala Mac**
 
 - GitHub: [ngalamac](https://github.com/ngalamac)
 - LinkedIn: [Ngala Mac](https://www.linkedin.com/in/...)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Design
+<!-- FUTURE FEATURES -->
 
-Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🤝 Contributing
+- [ ] **Web Responsiveness for all users**
+- [ ] **Add web accessibility**
+- [ ] **Add Login page**
+- [ ] **Add gradient background that will change randomly**
 
-Contributions, issues, and feature requests are welcome!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Everybody is welcome to suggest, changes,Contributions, issues, and feature request in this project.
+
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch.
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Microverse Staff
-- Coding Partners
-- Code Reviewers
-- [Map's author](https://github.com/VuDej/worldMaps)
+If you like this project, Please give me ⭐️ and you can use it following [MIT](./MIT) license.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).Thanks ❤️ to <b>Nelson Sakwa</b> on Behance for creating such a beautiful design.
+
+I would like to thank and appreciate who contributes this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is under [MIT](./MIT) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
