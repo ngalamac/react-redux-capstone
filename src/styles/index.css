@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--blue-light);
+  font-family: var(--font-lato);
+  font-family: var(--font-monts);
+}
+
+:root {
+  --blue-light: #4f9fea;
+  --blue-medium: #4e9de7;
+  --blue-dark: #1f68bb;
+  --font-monts: 'Montserrat', sans-serif;
+  --font-lato: 'Lato', sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0 0.4rem;
+  background-color: var(--blue-dark);
+  font-family: var(--font-lato);
+  font-size: 1rem;
+}
+
+.button {
+  border: none;
+  background-color: var(--blue-dark);
+  color: white;
+  cursor: pointer;
+}
+
+.homeBg {
+  height: 23vh;
+  background-image: url(../assets/globe2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.homeTitle {
+  margin: 0;
+  padding: 2rem;
+  font-family: var(--font-monts);
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+
+.icons {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.margin-right {
+  margin-right: 0.5rem;
+}
+
+.search {
+  display: flex;
+  height: 2rem;
+  justify-content: space-between;
+  background-color: var(--blue-medium);
+  padding: 0.3rem 0.8rem;
+}
+
+select {
+  width: 20%;
+  height: 1.5rem;
+  padding: 0.3rem 0.4rem;
+  outline: none;
+  border: 0;
+  border-radius: 20px;
+  transition: width 0.4s ease-in-out;
+}
+
+select:focus,
+select:hover {
+  width: 40%;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0;
+}
+
+.cardBg {
+  background-image: url(../assets/card.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: end;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.cardBg a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.detailContainter {
+  padding: 2rem 0;
+}
+
+.detailTop {
+  text-align: center;
+}
+
+.detailHeader {
+  font-family: var(--font-monts);
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+.detailContainter li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0.5rem;
+  color: whitesmoke;
+  font-size: 0.8rem;
+}
+
+.detailContainter li:nth-child(odd) {
+  background-color: var(--blue-dark);
+}
+
+.detailContainter li:nth-child(even) {
+  background-color: var(--blue-medium);
+}
+
+@media screen and (min-width: 600px) {
+  .cardContainer {
+    grid-template-columns: auto auto auto;
+  }
+
+  .detailContainter li {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .cardContainer {
+    grid-template-columns: auto auto auto auto;
+  }
+}
