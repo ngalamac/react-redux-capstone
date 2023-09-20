@@ -107,7 +107,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can go ahead give a star to the repository.
+If you like this project you can go ahead and give a star to the repository.
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
